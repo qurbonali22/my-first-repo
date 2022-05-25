@@ -1,11 +1,37 @@
 #include <iostream>
 using namespace std;
 int main(){
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //	1-masala
-/*	 
+/*
 	{
-	
+
 		int a,b,c,min;
 		cin>>a>>b>>c;
 		if(a<b){
@@ -17,22 +43,22 @@ int main(){
 			else  min=c;
 		}
 		cout<<min;
-		
+
 	} */
-	
+
 //	2-masala
-/*	
+/*
 	{
-		int yil , kun; 
+		int yil , kun;
 		cin>>yil;
 		if(yil%400==0) kun = 366;
 		else if(yil%4==0 and yil%100!=0) kun = 366;
 		else kun = 365;
 		cout<<kun;
 	} */
-	
+
 //	3-masala
-/*	
+/*
 	{
 		int a,b,m;
 		cin>>a>>b;
@@ -48,11 +74,11 @@ int main(){
 		}
 		cout<<a<<" "<<b;
 		main();
-		
+
 	} */
-	
+
 //	4-masala
-/*	
+/*
 	{
 		int oy ,kun,t=1;
 		cin>>kun>>oy;
@@ -67,7 +93,7 @@ int main(){
 				else t=0;
 				break;
 			}
-			
+
 			case 2 : {
 				if(kun<28)
 				kun++;
@@ -78,7 +104,7 @@ int main(){
 				else t=0;
 				break;
 			}
-			
+
 			case 3 : {
 				if(kun<31)
 				kun++;
@@ -89,7 +115,7 @@ int main(){
 				else t=0;
 				break;
 			}
-			
+
 			case 4 : {
 				if(kun<30)
 				kun++;
@@ -100,7 +126,7 @@ int main(){
 				else t=0;
 				break;
 			}
-			
+
 			case 5 : {
 				if(kun<31)
 				kun++;
@@ -111,7 +137,7 @@ int main(){
 				else t=0;
 				break;
 			}
-			
+
 			case 6 : {
 				if(kun<30)
 				kun++;
@@ -122,7 +148,7 @@ int main(){
 				else t=0;
 				break;
 			}
-			
+
 			case 7 : {
 				if(kun<31)
 				kun++;
@@ -133,7 +159,7 @@ int main(){
 				else t=0;
 				break;
 			}
-			
+
 			case 8 : {
 				if(kun<31)
 				kun++;
@@ -144,7 +170,7 @@ int main(){
 				else t=0;
 				break;
 			}
-			
+
 			case 9 : {
 				if(kun<30)
 				kun++;
@@ -155,7 +181,7 @@ int main(){
 				else t=0;
 				break;
 			}
-			
+
 			case 10 : {
 				if(kun<31)
 				kun++;
@@ -166,7 +192,7 @@ int main(){
 				else t=0;
 				break;
 			}
-			
+
 			case 11 : {
 				if(kun<30)
 				kun++;
@@ -177,7 +203,7 @@ int main(){
 				else t=0;
 				break;
 			}
-			
+
 			case 12 : {
 				if(kun<31)
 				kun++;
@@ -188,16 +214,16 @@ int main(){
 				else t=0;
 				break;
 			}
-			
+
 			default: cout<<"Oy noto`g`ri kiritilgan! ";
-			
+
 		}
-		
+
 		if(!t) cout<<"Kun noto`g`ri kiritilgan !";
 		else cout<<kun<<"."<<oy;
 		main();
 	} */
-	
+
 //	5 - masala
 /*
 	{
@@ -207,15 +233,15 @@ int main(){
 			for(int j=1 ; j<=i/2 ; j++){
 				if(i%j==0 and i!=j) s+=j;
 			}
-			
-			if(i==s) 
+
+			if(i==s)
 				cout<<s<<" ";
 			s=0;
-			
+
 		}
 		main();
 	} */
-	
+
 //	6-masala
 /*
 	{
@@ -231,17 +257,17 @@ int main(){
 			if(t) cout<<i<<" ";
 			t=1;
 		}
-		
+
 		main();
 	} */
-	
+
 //	7-masala
 /*
 	{
 		int n,s1 = 0 , s2 = 0;
-		
+
 	} */
-	
+
 //	8-masala
 /*
 	{
@@ -257,7 +283,7 @@ int main(){
 		}
 		cout<<n<<" Oyda "<<k;
 	} */
-	
+
 //	9-masala
 /*
 	{
@@ -266,12 +292,12 @@ int main(){
 		while(n){
 			s+=n%10;
 			n/=10;
-		k++;	
+		k++;
 		}
 		cout<<k<<" "<<s;
-		main();	
+		main();
 	}*/
-	
+
 //	10-masala
 /*
 	{
@@ -299,11 +325,11 @@ int main(){
 				break;
 			}
 		}
-		
+
 		cout<<ekub;
-		
+
 		main();
-	
+
 	} */
-	
+
 }
